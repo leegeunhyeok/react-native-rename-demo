@@ -26,9 +26,10 @@ yarn android
 ```
 
 - Build successfully and no crash on start
-- ![first build](https://user-images.githubusercontent.com/26512984/205422148-7c0f9b19-0379-4692-9f93-a02d6950da7d.png)
+- ![first build](https://user-images.githubusercontent.com/26512984/205422655-161645da-33c4-42aa-8b6e-1253dbb69c38.png)
+- ![fabric enabled](https://user-images.githubusercontent.com/26512984/205422148-7c0f9b19-0379-4692-9f93-a02d6950da7d.png)
 
-### 4. Rename packages 
+### 4. Rename application 
 
 - Reference: https://github.com/junedomingo/react-native-rename/pull/163
 
@@ -53,3 +54,8 @@ react-native-rename "Rename" -b com.test.rename
 yarn android --active-arch-only
 ```
 - It also no crash on start
+- ![2nd build](https://user-images.githubusercontent.com/26512984/205422535-9b39e188-7ea3-4fb9-a58a-82c3f7010d15.png)
+
+### 6. Result
+
+![result](https://user-images.githubusercontent.com/26512984/205422678-b63a6b9c-3ca7-44cc-9552-c90fe52df31d.png)
